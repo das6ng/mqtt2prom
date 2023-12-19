@@ -1,23 +1,3 @@
-# mqtt2prom
-
-subscribe mqtt topics and push them to prometheus metrics.
-
-usage:
-```
-USAGE:
-   mqtt2prom [global options] command [command options] [arguments...]
-
-COMMANDS:
-   help, h  Shows a list of commands or help for one command
-
-GLOBAL OPTIONS:
-   --config value, -c value  specify config file (default: "config.yaml")
-   --help, -h                show help
-```
-
-config:
-
-```yaml
 # mqtt broker url
 mqtt_broker_url: mqtt://localhost:1883
 
@@ -53,4 +33,3 @@ clean_duration: 1h
 
 # log level
 log_level: DEBUG
-```
